@@ -1,56 +1,26 @@
 <template>
-  <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
-
-    <v-main>
-      <HelloWorld/>
-    </v-main>
+  <v-app id="Container">
+    <v-container>
+      <v-row>
+        <v-col sm="12" md="4">
+          <CardSummary username="deivit24" />
+        </v-col>
+        <v-col sm="12" md="8">
+          <TabSlider />
+        </v-col>
+      </v-row>
+    </v-container>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-
+import CardSummary from './components/Cards/CardSummary.vue';
+import TabSlider from './components/TabSlider.vue';
 export default {
   name: 'App',
-
   components: {
-    HelloWorld,
+    CardSummary,
+    TabSlider,
   },
 
   data: () => ({
@@ -58,3 +28,25 @@ export default {
   }),
 };
 </script>
+
+<style scoped>
+#Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(70deg, #000, #2b3640);
+}
+
+#Container .container {
+  padding-top: 20%;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 500px) {
+  #Container {
+    height: 100%;
+  }
+}
+</style>
