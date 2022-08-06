@@ -8,7 +8,10 @@
       </p>
       <ul class="who_list">
         <li>Nashville - Lipscomb University BA in Accounting</li>
-        <li>New York - Assistant Men's Tennis Coach at West Point</li>
+        <li>
+          New York - Assistant Men's Tennis Coach at
+          <strong>West Point.</strong> Go Army, Beat Navy!
+        </li>
         <li>
           The United Kingdom - Durham University Masters in Finance
         </li>
@@ -16,15 +19,25 @@
       </ul>
       <p class="who_text">
         And these days I live in Austin, TX- started Armis Financial, build Web
-        Applications on the side and currently work at at Point3 Federal (P3F)
-        as a
-        <strong>Software Engineer</strong>.
+        Applications on the side and currently work at at CreatorIQ as a
+        <strong>Full Stack Software Engineer</strong>.
       </p>
 
       <p class="who_text">
-        <strong>P3F</strong> provides innovative cyberspace solutions, training
-        and services for the federal government sector and Intelligence
-        Community.
+        I previously worked for <strong>P3F</strong> (Point3 Federal) which
+        provides innovative cyberspace solutions, training and services for the
+        federal government sector and Intelligence Community.
+      </p>
+      <p class="who_text">
+        I started as a Software Engineer and ended as a Software Enginner II at
+        <strong>P3F</strong>. I went from fixing small bugs to leading complex
+        feature implementations, software refactoring and being the point of
+        contact with our client.
+      </p>
+      <p class="who_text">
+        I now work at Tribe Dynamics a <strong>CreatorIQ</strong> company. I now
+        know what it's like to work with a far bigger team and having more
+        processes. I have been loving my experience so far.
       </p>
 
       <p class="who_text">
@@ -44,9 +57,8 @@
       </p>
       <p class="who_text">
         I reached my goal back in October of 2020 when I accepted an offer to
-        work as a Software Enginner. It has been an amazing experience. Small
-        team and we all "wear different hats" and dive right in to solve
-        problems.
+        work as a Software Engineer. It has been an amazing experience. I am
+        slowly trying to figure out where I want this career to take me.
       </p>
     </v-container>
   </div>
@@ -54,7 +66,7 @@
 
 <script>
 export default {
-  name: 'Bio',
+  name: "Bio",
 };
 </script>
 

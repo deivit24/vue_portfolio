@@ -12,24 +12,24 @@
 
     <v-divider class="mx-4"></v-divider>
     <v-card-text>
-      <div>
-        Experience in React.js, Vue.js JavaScript, Node.js, Python/Flask,
-        MongoDB, Postgres.
+      <div class="mb-2">
+        Experience in React.js, Vue.js JavaScript, Node.js, Python/Flask/Django,
+        MongoDB, Postgres, Docker.
       </div>
       <div>
-        Always at the forefront of JavaScript Technologies
+        Always at the forefront of JavaScript/Python technologies.
       </div>
     </v-card-text>
   </v-card>
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 
-const BASE_URL = 'https://api.github.com/users';
+const BASE_URL = "https://api.github.com/users";
 
 export default {
-  name: 'SummaryCard',
+  name: "SummaryCard",
   props: {
     username: {
       type: String,

@@ -29,34 +29,34 @@
 </template>
 
 <script>
-import CardBio from './Cards/CardBio';
-import CardSkills from './Cards/CardSkills';
-import CardProjects from './Cards/CardProjects';
-import CardContact from './Cards/CardContact';
+import CardBio from "./Cards/CardBio";
+import CardSkills from "./Cards/CardSkills";
+import CardProjects from "./Cards/CardProjects";
+import CardContact from "./Cards/CardContact";
 export default {
-  name: 'TabSlider',
+  name: "TabSlider",
   data: () => ({
     tab: null,
-    text: 'sadffas',
+    text: "sadffas",
     tabs: [
       {
-        title: 'BIO',
-        icon: 'mdi-account-circle',
+        title: "BIO",
+        icon: "mdi-account-circle",
         component: CardBio,
       },
       {
-        title: 'SKILLS',
-        icon: 'mdi-tools',
+        title: "SKILLS",
+        icon: "mdi-tools",
         component: CardSkills,
       },
       {
-        title: 'PROJECTS',
-        icon: 'mdi-iframe-braces-outline',
+        title: "PROJECTS",
+        icon: "mdi-application-brackets-outline",
         component: CardProjects,
       },
       {
-        title: 'Contact',
-        icon: 'mdi-card-account-mail',
+        title: "Contact",
+        icon: "mdi-card-account-mail",
         component: CardContact,
       },
     ],
