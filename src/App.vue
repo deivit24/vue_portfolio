@@ -40,7 +40,7 @@ export default {
 }
 
 #Container .container {
-  padding-top: 20%;
+  padding-top: 5%;
   max-width: 1000px;
 }
 
