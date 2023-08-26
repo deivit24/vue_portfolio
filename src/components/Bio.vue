@@ -19,8 +19,8 @@
       </ul>
       <p class="who_text">
         And these days I live in Austin, TX- started Armis Financial, build Web
-        Applications on the side and currently work at at CreatorIQ as a
-        <strong>Full Stack Software Engineer</strong>.
+        Applications on the side and currently work at at Aledade as a
+        <strong>Senior Software Engineer</strong>.
       </p>
 
       <p class="who_text">
@@ -35,9 +35,17 @@
         contact with our client.
       </p>
       <p class="who_text">
-        I now work at Tribe Dynamics a <strong>CreatorIQ</strong> company. I now
-        know what it's like to work with a far bigger team and having more
-        processes. I have been loving my experience so far.
+        I then started working at Tribe Dynamics, a <strong>CreatorIQ</strong> company. It was a much larger team, with more processes and 
+        a great product team that made life easier. I loved my experience working there. I managed more complex features and 
+        really felt like I was able to grow in this company. Unfortunately, there was a company-wide layoff and I was affected by it.
+      </p>
+
+      <p class="who_text">
+        Thanks to the strong network that I have built at P3F, I was able to get a job at <strong>Aledade</strong> as a Senior Software 
+        Engineer. This company has 1.5k+ employees and around 300+ in Engineering and Product. I am working on the BI Knowledge team, 
+        specifically with DBT and Snowflake. I work with data to create and manage the data pipeline, from raw data to valuable insights. 
+        I focus on enabling the organization to make informed decisions by designing, building, and maintaining data structures and 
+        processes that facilitate analysis and reporting. 
       </p>
 
       <p class="who_text">
