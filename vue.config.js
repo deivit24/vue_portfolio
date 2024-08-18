@@ -1,10 +1,13 @@
 module.exports = {
-  transpileDependencies: ['vuetify'],
+  transpileDependencies: ["vuetify"],
   chainWebpack: (config) => {
     config.module
-      .rule('pdf')
+      .rule("pdf")
       .test(/\.pdf$/)
-      .use('file-loader')
-      .loader('file-loader');
+      .use("file-loader")
+      .loader("file-loader");
+  },
+  devServer: {
+    port: 8081,
   },
 };

@@ -13,11 +13,9 @@
     <v-divider class="mx-4"></v-divider>
     <v-card-text>
       <div class="mb-2">
-        Experience in React.js, Vue.js JavaScript, Node.js, Python/Flask/Django,
-        MongoDB, Postgres, Docker.
-      </div>
-      <div>
-        Always at the forefront of JavaScript/Python technologies.
+        Senior Software Engineer with strong experience in JavaScript/Node,
+        Python, Postgres, data engineering, infrastructure, and architecting
+        solutions.
       </div>
     </v-card-text>
   </v-card>
